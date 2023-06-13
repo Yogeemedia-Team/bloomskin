@@ -826,9 +826,16 @@ h2.post-item-content-title {
   font-size: 2.25rem;
   font-weight: 600;
   font-family: "Cormorant", serif;
+  cursor: pointer;
 }
 
-h2.post-item-content-title:hover {
+h2.post-item-content-title a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h2.post-item-content-title:hover,
+h2.post-item-content-title a:hover {
   color: #d17474;
 }
 
@@ -893,8 +900,12 @@ aside.sidebar-container a {
   border: 2px solid #808080;
 }
 
+div#block-2 {
+  width: 250px;
+}
+
 input#block-search__input-1 {
-  width: 220px;
+  width: 200px;
   height: auto;
   padding: 10px;
   border: none;
@@ -1514,6 +1525,11 @@ i.fa-solid.fa-magnifying-glass {
     text-align: center !important;
     margin: 0 auto !important;
     display: block !important;
+  }
+
+  div#block-2 {
+    display: block;
+    margin: 0 auto;
   }
 
   /* blog page @media css end */
