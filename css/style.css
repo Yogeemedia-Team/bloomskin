@@ -799,6 +799,7 @@ form label {
   color: #676767;
 }
 
+button.submit-btn,
 input.submit-btn,
 button.read-more-btn,
 input[type="submit"] {
@@ -806,11 +807,39 @@ input[type="submit"] {
   background: #222;
   color: #fff;
   font-weight: 600;
+  transition: 0.5s;
+}
+
+button.submit-btn:hover,
+input.submit-btn:hover,
+button.read-more-btn:hover,
+input[type="submit"]:hover {
+  background: #d17474;
+  color: #fff;
+  font-weight: 600;
 }
 
 /* contact us page css end */
 
 /* service page css start */
+
+.entry-more a {
+  text-decoration: none;
+}
+
+.service-img-box-img {
+  overflow: hidden;
+  width: 100%;
+  height: 230px;
+}
+
+.service-post-image {
+  transition: 0.5s;
+}
+
+.service-post-image:hover {
+  transform: scale(1.10);
+}
 
 /* service page css end */
 
@@ -827,16 +856,19 @@ h2.post-item-content-title {
   font-weight: 600;
   font-family: "Cormorant", serif;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 h2.post-item-content-title a {
   text-decoration: none;
   color: #000000;
+  transition: 0.5s;
 }
 
 h2.post-item-content-title:hover,
 h2.post-item-content-title a:hover {
   color: #d17474;
+  transition: 0.5s;
 }
 
 .cosmetic {
@@ -1505,6 +1537,15 @@ i.fa-solid.fa-magnifying-glass {
   /* contact us page @media css end */
 
   /* service page @media css start */
+
+  h2.post-item-content-title {
+    text-align: center;
+  }
+
+  button.submit-btn {
+    display: block;
+    margin: 0 auto;
+  }
 
   /* service page @media css end */
 
