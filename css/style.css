@@ -1028,6 +1028,10 @@ i.fa-solid.fa-magnifying-glass {
 @media only screen and (max-width: 768px) {
   /* medium devices (landscape tablets, 768px and up) */
 
+  div#navbarSupportedContent {
+    background: #ffffff;
+  }
+
   a.nav-link.active,
   a.nav-link:hover {
     border-bottom: none;
