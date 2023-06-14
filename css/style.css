@@ -838,7 +838,11 @@ input[type="submit"]:hover {
 }
 
 .service-post-image:hover {
-  transform: scale(1.10);
+  transform: scale(1.1);
+}
+
+a:hover {
+  color: #d17474;
 }
 
 /* service page css end */
