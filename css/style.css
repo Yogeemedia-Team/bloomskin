@@ -841,10 +841,6 @@ input[type="submit"]:hover {
   transform: scale(1.1);
 }
 
-a:hover {
-  color: #d17474;
-}
-
 /* service page css end */
 
 /* blog page css start */
