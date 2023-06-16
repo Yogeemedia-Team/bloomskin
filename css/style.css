@@ -1226,6 +1226,11 @@ i.fa-solid.fa-magnifying-glass {
     font-size: 1.75rem;
   }
 
+  .hidden-text-box {
+    opacity: 1;
+    background: #00000087;
+}
+
   /* home page @media css end */
 
   /* about us page @media css start */
