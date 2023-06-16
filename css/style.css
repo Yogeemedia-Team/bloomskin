@@ -2,8 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,700&display=swap");
 
 body {
-  font-family: "Nunito Sans", sans-serif;
   background-color: #f4e3d7;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 a.nav-link {
@@ -78,6 +82,13 @@ button:not(:disabled) {
   border: none;
 }
 
+span.navbar-toggler-icon {
+    font-size: 1rem;
+}
+span.navbar-toggler-icon:active {
+    border: none;
+}
+
 .carousel-indicators {
   z-index: 99;
 }
@@ -111,6 +122,11 @@ a.heading-title {
   font-weight: 900;
   font-size: 1em;
   color: #353535;
+  transition: 1s;
+}
+
+a.heading-title:hover {
+  color: #d17474;
 }
 
 img.img3 {
@@ -136,8 +152,8 @@ img.img {
   transition: transform 0.5s ease;
 }
 
-.img:hover > {
-  transform: scale(1.1);
+.img:hover {
+  transform: scale(1.05);
 }
 
 .box1 {
@@ -190,14 +206,11 @@ img.img {
 .img-box:hover > .box.box1 span {
   color: #d17474;
   border-bottom: 2px solid #d17474;
+  transform: 0.5s;
 }
 
 .img {
   transition: 0.5s;
-}
-
-.img:hover {
-  transform: scale(1.05);
 }
 
 p.service-title {
@@ -211,6 +224,10 @@ p.service-title {
   text-decoration: none;
   color: #000000;
   font-weight: bold;
+  transition: 1s;
+}
+.service-title span a:hover {
+  color: #d17474;
 }
 
 .service-box-img {
@@ -218,13 +235,29 @@ p.service-title {
   background-repeat: no-repeat !important;
   object-fit: cover;
   background-position: center !important;
+  transition: 1s;
 }
 
+.service-box-img:hover {
+  border: 10px solid #d17474;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.service-box-title,
 .service-box-title a {
   font-size: 1rem;
   color: #353535;
   text-decoration: none;
   font-weight: 800;
+  padding-left: 10px;
+  line-height: 2;
+  margin-bottom: 0;
+  transition: 0.5s;
+}
+.service-box-title:hover,
+.service-box-title a:hover {
+  color: #d17474;
 }
 
 .service-img-title p {
@@ -385,6 +418,11 @@ a.treatments-link {
   color: #000000;
   text-decoration: none;
   border-bottom: 2px solid #a56337;
+  transition: 1s;
+}
+
+a.treatments-link:hover {
+  color: #d17474;
 }
 
 h3.treatments-text {
@@ -403,7 +441,7 @@ div#carouselExampleRide {
 }
 
 .hidden-text-box {
-  display: none;
+  opacity: 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -430,14 +468,11 @@ div#carouselExampleRide {
 .treatment-carousel-img img {
   width: auto;
   height: auto;
-}
-
-.treatment-carousel-img {
   transition: 1s;
 }
 
 .treatment-carousel-img:hover > .hidden-text-box {
-  display: block;
+  opacity: 1;
   background: #00000087;
   transition: 1s;
 }
@@ -516,6 +551,11 @@ ul.footer-social li span {
   border: 1px solid #5050507d;
   border-radius: 30px;
   cursor: pointer;
+  transition: 0.5s;
+}
+ul.footer-social li span:hover {
+  color: #d17474;
+  border: 1px solid #6f7f23;
 }
 
 h4.footer-link-title {
@@ -531,6 +571,11 @@ h4.footer-link-title {
   line-height: 2;
   color: #a1a1a1;
   font-size: 0.9rem;
+  transition: 0.5s;
+}
+
+.footer-link-ul li a:hover {
+  color: #6f7f23;
 }
 
 .copyright-text {
@@ -550,7 +595,6 @@ h4.footer-link-title {
 }
 
 .bannar-text {
-  font-family: "Cormorant", serif;
   text-align: center;
   position: absolute;
   top: 25%;
@@ -576,7 +620,7 @@ h4.footer-link-title {
 .review-title h2,
 .about-txt h3 {
   font-size: 2.25rem;
-  font-family: "Cormorant", serif;
+
   font-weight: 800;
   color: #222222;
 }
@@ -584,7 +628,7 @@ h4.footer-link-title {
 .review p,
 .about-txt p {
   font-size: 1rem;
-  font-family: "Nunito Sans", sans-serif;
+
   font-weight: 600;
   line-height: 2rem;
   color: #808080;
@@ -617,7 +661,7 @@ h4.footer-link-title {
 
 .about-flex-txt1 h4 {
   font-size: 1.5rem;
-  font-family: "Cormorant", serif;
+
   font-weight: 800;
   color: #353535;
   margin-bottom: 0;
@@ -641,7 +685,7 @@ h4.footer-link-title {
   font-size: 2.875rem;
   color: #a05f3b;
   font-weight: 800;
-  font-family: "Nunito Sans", sans-serif;
+
   margin: 0;
 }
 
@@ -654,7 +698,6 @@ h4.footer-link-title {
   font-size: 1.25rem;
   color: #a05f3b;
   font-weight: 400;
-  font-family: "Nunito Sans", sans-serif;
 }
 
 span.material-symbols-outlined.video-btn.about-btn {
@@ -740,7 +783,6 @@ div.customer-img-border {
 /* contact us page css start */
 
 h2.con-title {
-  font-family: "Cormorant", serif;
   font-weight: 800;
   font-size: 2.25rem;
   color: #353535;
@@ -854,7 +896,7 @@ h2.post-item-content-title {
   color: #000000;
   font-size: 2.25rem;
   font-weight: 600;
-  font-family: "Cormorant", serif;
+
   cursor: pointer;
   transition: 0.5s;
 }
@@ -904,7 +946,6 @@ h2.post-item-content-title a:hover {
 }
 
 h2.block-heading {
-  font-family: "Cormorant", serif;
   font-size: 2rem;
   font-weight: 600;
   color: #222222;
@@ -926,6 +967,14 @@ aside.sidebar-container a {
   color: #676767;
   font-weight: 600;
   font-size: 1rem;
+}
+
+.sidebar-inner a {
+  transition: 0.5s;
+}
+
+.sidebar-inner a:hover {
+  color: #6f7f23;
 }
 
 .block-search__inside-wrapper {
@@ -950,7 +999,7 @@ i.fa-solid.fa-magnifying-glass {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(0%, -60%);
 }
 
 /* blog page css end */
@@ -1059,6 +1108,10 @@ i.fa-solid.fa-magnifying-glass {
 
 @media only screen and (max-width: 768px) {
   /* medium devices (landscape tablets, 768px and up) */
+
+  li.nav-item {
+    border-bottom: 1px solid #d17474;
+  }
 
   div#navbarSupportedContent {
     background: #ffffff;
@@ -1181,7 +1234,7 @@ i.fa-solid.fa-magnifying-glass {
     font-size: 2.75rem;
     color: #a05f3b;
     font-weight: 800;
-    font-family: "Nunito Sans", sans-serif;
+
     margin: 0;
   }
 
@@ -1189,7 +1242,6 @@ i.fa-solid.fa-magnifying-glass {
     font-size: 1rem;
     color: #a05f3b;
     font-weight: 400;
-    font-family: "Nunito Sans", sans-serif;
   }
 
   /* about us page @media css end */
