@@ -83,10 +83,10 @@ button:not(:disabled) {
 }
 
 span.navbar-toggler-icon {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 span.navbar-toggler-icon:active {
-    border: none;
+  border: none;
 }
 
 .carousel-indicators {
@@ -239,9 +239,8 @@ p.service-title {
 }
 
 .service-box-img:hover {
-  border: 10px solid #d17474;
-  border-radius: 10px;
-  transition: 1s;
+  transform: scale(0.95);
+  transition: 0.5s;
 }
 
 .service-box-title,
@@ -434,6 +433,14 @@ div#carouselExampleRide {
   position: absolute;
   top: 10%;
   right: 30%;
+}
+
+.treatment-top a {
+  color: #fff;
+  transition: 0.5s;
+}
+.treatment-top a:hover {
+  color: #d17474;
 }
 
 .treatment-carousel-img {
@@ -782,6 +789,16 @@ div.customer-img-border {
 
 /* contact us page css start */
 
+.bannar-text.contact a {
+  text-decoration: none;
+  color: #fff;
+  transition: 1s;
+}
+
+.bannar-text.contact a:hover {
+  color: #d17474;
+}
+
 h2.con-title {
   font-weight: 800;
   font-size: 2.25rem;
@@ -881,6 +898,20 @@ input[type="submit"]:hover {
 
 .service-post-image:hover {
   transform: scale(1.1);
+}
+
+.bannar-text.bannar h3 {
+  color: #000000;
+}
+
+.bannar-text.bannar h3 a {
+  color: #000;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.bannar-text.bannar h3 a:hover {
+  color: #d17474;
 }
 
 /* service page css end */
@@ -1229,7 +1260,7 @@ i.fa-solid.fa-magnifying-glass {
   .hidden-text-box {
     opacity: 1;
     background: #00000087;
-}
+  }
 
   /* home page @media css end */
 
