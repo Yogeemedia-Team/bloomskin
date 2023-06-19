@@ -80,12 +80,28 @@ button.carousel-control-next {
 button:not(:disabled) {
   cursor: pointer;
   border: none;
+  box-shadow: none;
 }
 
 span.navbar-toggler-icon {
   font-size: 1rem;
+  border: none;
+  float: right;
+  box-shadow: none;
 }
-span.navbar-toggler-icon:active {
+
+span.material-symbols-outlined.close {
+  padding: 0;
+  background: none;
+  font-size: 2rem;
+  position: relative;
+  float: right;
+  margin-top: 20%;
+}
+
+span.material-symbols-outlined.close:hover {
+  background: none;
+  color: #000000;
   border: none;
 }
 
@@ -1144,9 +1160,9 @@ i.fa-solid.fa-magnifying-glass {
     border-bottom: 1px solid #d17474;
   }
 
-  div#navbarSupportedContent {
+  /* div#navbarSupportedContent {
     background: #ffffff;
-  }
+  } */
 
   a.nav-link.active,
   a.nav-link:hover {

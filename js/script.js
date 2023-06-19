@@ -1,3 +1,7 @@
+let chaneIcon = function (icon) {
+  icon.classList.toggle("fa-times");
+}
+
 // var countDownDate = new Date("june 30, 2023 00:00:00").getTime();
 // var x = setInterval(function () {
 //   var now = new Date().getTime();
