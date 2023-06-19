@@ -929,6 +929,11 @@ input[type="submit"]:hover {
   color: #d17474;
 }
 
+.service-bannar-h1 {
+  font-size: 2.5rem;
+  color: #000000;
+}
+
 /* service page css end */
 
 /* blog page css start */
@@ -1685,8 +1690,9 @@ i.fa-solid.fa-magnifying-glass {
     margin: 0 auto;
   }
 
-.bannar-text {
-  top: 0;
+
+.bannar-text h1 {
+  font-size: 4rem;
 }
 
   /* blog page @media css end */
