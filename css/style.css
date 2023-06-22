@@ -224,6 +224,10 @@ img.img {
   transform: 0.5s;
 }
 
+.modal-header, .modal-body {
+  background: #f4e3d7;
+}
+
 .img {
   transition: 0.5s;
 }

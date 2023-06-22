@@ -1,6 +1,24 @@
 let chaneIcon = function (icon) {
   icon.classList.toggle("fa-times");
-}
+};
+
+$(document).ready(function () {
+  /* Get iframe src attribute value i.e. YouTube video url
+    and store it in a variable */
+  var url = $("#popupVideo").attr("src");
+
+  /* Assign empty url value to the iframe src attribute when
+    modal hide, which stop the video playing */
+  $("#myModal").on("hide.bs.modal", function () {
+    $("#popupVideo").attr("src", "");
+  });
+
+  /* Assign the initially stored url back to the iframe src
+    attribute when modal is displayed again */
+  $("#myModal").on("show.bs.modal", function () {
+    $("#popupVideo").attr("src", url);
+  });
+});
 
 // var countDownDate = new Date("june 30, 2023 00:00:00").getTime();
 // var x = setInterval(function () {
