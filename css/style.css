@@ -320,6 +320,12 @@ span.material-symbols-outlined:hover {
   background: #222222;
 }
 
+#myModal {
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 .treatment-title-sign {
   font-size: 46px;
   font-family: "Mrs Saint Delafield", cursive;
