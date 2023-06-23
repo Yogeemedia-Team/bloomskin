@@ -320,7 +320,8 @@ span.material-symbols-outlined:hover {
   background: #222222;
 }
 
-#myModal {
+#myModal,
+#myModa2 {
   top: 25%;
   left: 50%;
   transform: translate(-50%);
