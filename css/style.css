@@ -227,7 +227,8 @@ img.img {
   transform: 0.5s;
 }
 
-.modal-header, .modal-body {
+.modal-header,
+.modal-body {
   background: #f4e3d7;
 }
 
@@ -878,6 +879,14 @@ textarea {
   font-size: 1rem;
   font-weight: 600;
   color: #676767;
+  outline: none;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #d17474 !important;
+  box-shadow:0 0 10px 5px #d1747486 !important;
+  
 }
 
 form label {
@@ -1665,6 +1674,11 @@ i.fa-solid.fa-magnifying-glass {
   /* about us page @media css end */
 
   /* contact us page @media css start */
+
+  .contact-row.row {
+    display: block;
+    margin: 0 auto;
+}
 
   /* contact us page @media css end */
 
