@@ -696,9 +696,9 @@ h4.footer-link-title {
   border: 2px solid #d57e7c;
 }
 
+.default-404 h4,
 .about-flex-txt1 h4 {
   font-size: 1.5rem;
-
   font-weight: 800;
   color: #353535;
   margin-bottom: 0;
@@ -896,6 +896,7 @@ form label {
   color: #676767;
 }
 
+a.button.submit-btn,
 button.submit-btn,
 input.submit-btn,
 button.read-more-btn,
@@ -907,6 +908,7 @@ input[type="submit"] {
   transition: 0.5s;
 }
 
+a.button.submit-btn:hover,
 button.submit-btn:hover,
 input.submit-btn:hover,
 button.read-more-btn:hover,
@@ -1010,6 +1012,7 @@ h2.post-item-content-title a:hover {
   font-weight: 600;
 }
 
+.default-404 p,
 .page-content,
 .entry-excerpt p {
   font-size: 1rem;
@@ -1688,6 +1691,7 @@ i.fa-solid.fa-magnifying-glass {
     text-align: center;
   }
 
+  a.button.submit-btn
   button.submit-btn {
     display: block;
     margin: 0 auto;
