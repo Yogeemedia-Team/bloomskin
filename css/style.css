@@ -272,7 +272,7 @@ p.service-title {
   color: #353535;
   text-decoration: none;
   font-weight: 800;
-  padding-left: 10px;
+  text-align: center;
   line-height: 2;
   margin-bottom: 0;
   transition: 0.5s;
@@ -431,8 +431,8 @@ img.img8 {
   max-width: 100%;
   height: auto;
   position: absolute;
-  bottom: -2%;
-  left: 0%;
+  top: 90%;
+  left: -20%;
 }
 
 .treatments-text p {
@@ -488,7 +488,7 @@ div#carouselExampleRide {
 }
 
 .hidden-text {
-  width: 90%;
+  /* width: 90%; */
   height: 85%;
   display: block;
   border: 5px solid #ffffff;
@@ -529,6 +529,10 @@ div#carouselExampleRide {
   float: right;
   margin-right: 5%;
   margin-top: 5%;
+}
+
+.treatment-bottom-setion .row {
+  height: 550px;
 }
 
 #headerPopup {
@@ -666,7 +670,6 @@ h4.footer-link-title {
 .about-txt p,
 .privacy-policy p {
   font-size: 1rem;
-
   font-weight: 600;
   line-height: 2rem;
   color: #808080;
@@ -886,8 +889,7 @@ textarea {
 input[type="text"]:focus,
 textarea:focus {
   border-color: #d17474 !important;
-  box-shadow:0 0 10px 5px #d1747486 !important;
-  
+  box-shadow: 0 0 10px 5px #d1747486 !important;
 }
 
 form label {
@@ -1153,10 +1155,8 @@ i.fa-solid.fa-magnifying-glass {
   img.img8 {
     max-width: 50%;
     height: auto;
-    position: absolute;
-    bottom: 25%;
     left: 0%;
-    top: 40%;
+    top: 70%;
   }
 
   img.img7 {
@@ -1167,12 +1167,12 @@ i.fa-solid.fa-magnifying-glass {
     top: 5%;
   }
 
-  section.treatments {
-    height: 400px;
-  }
-
   .treatments-text p {
     font-size: 1.75rem;
+  }
+
+  .treatment-bottom-setion .row {
+    height: 450px;
   }
 
   /* home page @media css end */
@@ -1272,20 +1272,25 @@ i.fa-solid.fa-magnifying-glass {
   }
 
   img.img8 {
-    max-width: 50%;
+    max-width: 20%;
     height: auto;
-    position: absolute;
-    bottom: 25%;
-    left: 0%;
-    top: 40%;
+    left: 30%;
+    top: 130%;
   }
 
   img.img7 {
-    max-width: 80%;
+    max-width: 30%;
     height: auto;
-    position: absolute;
-    left: 10%;
-    top: 5%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-20%, -10%);
+  }
+
+  img.rotate-text {
+    max-width: 20%;
+    height: auto;
+    left: 30%;
+    top: 0%;
   }
 
   .new-treatment-title {
@@ -1306,10 +1311,6 @@ i.fa-solid.fa-magnifying-glass {
     font-size: 1rem;
   }
 
-  section.treatments {
-    height: 400px;
-  }
-
   .treatments-text p {
     font-size: 1.75rem;
   }
@@ -1317,6 +1318,20 @@ i.fa-solid.fa-magnifying-glass {
   .hidden-text-box {
     opacity: 1;
     background: #00000087;
+  }
+
+  img.img5 {
+    padding-left: 20%;
+    max-width: 60%;
+  }
+
+  img.img6 {
+    left: 40%;
+    max-width: 30%;
+  }
+
+  .treatment-bottom-setion .row {
+    height: 700px;
   }
 
   /* home page @media css end */
@@ -1421,44 +1436,44 @@ i.fa-solid.fa-magnifying-glass {
     width: 80%;
   }
 
-  img.img8 {
+  /* img.img8 {
     max-width: 50%;
     height: auto;
     position: absolute;
     bottom: 25%;
     left: 0%;
     top: 20%;
-  }
+  } */
 
-  img.img7 {
+  /* img.img7 {
     max-width: 80%;
     height: auto;
     position: absolute;
     left: 10%;
     top: 5%;
-  }
+  } */
 
-  section.treatments {
+  /* section.treatments {
     height: 400px;
-  }
+  } */
 
   .treatments-text p {
     font-size: 1.5rem;
   }
 
-  h3.treatments-text {
+  /* h3.treatments-text {
     text-align: center;
     padding-top: 0 !important;
     margin-top: -40%;
-  }
+  } */
 
   a.treatments-link {
     font-size: 0.99rem;
   }
 
-  img.img6 {
+  /* img.img6 {
     top: 10%;
-  }
+  } */
 
   .footer-logo img {
     width: 50%;
@@ -1467,6 +1482,10 @@ i.fa-solid.fa-magnifying-glass {
   .footer-links {
     text-align: center;
   }
+
+  /* .hidden-text {
+    width: 87%;
+  } */
 
   /* home page @media css end */
 
@@ -1609,44 +1628,44 @@ i.fa-solid.fa-magnifying-glass {
     width: 80%;
   }
 
-  img.img8 {
+  /* img.img8 {
     max-width: 50%;
     height: auto;
     position: absolute;
     bottom: 25%;
     left: 0%;
     top: 20%;
-  }
+  } */
 
-  img.img7 {
+  /* img.img7 {
     max-width: 80%;
     height: auto;
     position: absolute;
     left: 10%;
     top: 5%;
-  }
+  } */
 
-  section.treatments {
+  /* section.treatments {
     height: 400px;
-  }
+  } */
 
   .treatments-text p {
     font-size: 1.5rem;
   }
 
-  h3.treatments-text {
+  /* h3.treatments-text {
     text-align: center;
     padding-top: 0 !important;
     margin-top: -40%;
-  }
+  } */
 
   a.treatments-link {
     font-size: 0.99rem;
   }
 
-  img.img6 {
+  /* img.img6 {
     top: 10%;
-  }
+  } */
 
   .launch-time {
     display: flex;
@@ -1666,6 +1685,18 @@ i.fa-solid.fa-magnifying-glass {
     text-align: center;
   }
 
+  .box1,
+  .box2,
+  .box3 {
+    left: 10%;
+  }
+
+  .hidden-text {
+    /* width: 84%; */
+    height: 70%;
+    padding-top: 15%;
+  }
+
   /* home page @media css end */
 
   /* about us page @media css start */
@@ -1682,7 +1713,7 @@ i.fa-solid.fa-magnifying-glass {
   .contact-row.row {
     display: block;
     margin: 0 auto;
-}
+  }
 
   /* contact us page @media css end */
 
@@ -1692,8 +1723,7 @@ i.fa-solid.fa-magnifying-glass {
     text-align: center;
   }
 
-  a.button.submit-btn
-  button.submit-btn {
+  a.button.submit-btn button.submit-btn {
     display: block;
     margin: 0 auto;
   }
@@ -1783,30 +1813,30 @@ i.fa-solid.fa-magnifying-glass {
     width: 80%;
   }
 
-  img.img6 {
+  /* img.img6 {
     top: 5%;
-  }
+  } */
 
-  img.img8 {
+  /* img.img8 {
     max-width: 50%;
     height: auto;
     position: absolute;
     bottom: 0%;
     left: 0%;
     top: 15%;
-  }
+  } */
 
-  img.img7 {
+  /* img.img7 {
     max-width: 80%;
     height: auto;
     position: absolute;
     left: 10%;
     top: 5%;
-  }
+  } */
 
-  section.treatments {
+  /* section.treatments {
     height: 400px;
-  }
+  } */
 
   .treatments-text p {
     font-size: 1.75rem;
@@ -1827,6 +1857,11 @@ i.fa-solid.fa-magnifying-glass {
     font-size: 1.5rem;
   }
 
+  .box1,
+  .box2,
+  .box3 {
+    left: 5%;
+  }
   /* home page @media css end */
 
   /* about us page @media css start */
@@ -1890,26 +1925,26 @@ i.fa-solid.fa-magnifying-glass {
     width: 80%;
   }
 
-  img.img8 {
+  /* img.img8 {
     max-width: 50%;
     height: auto;
     position: absolute;
     bottom: 0%;
     left: 0%;
     top: 12%;
-  }
+  } */
 
-  img.img7 {
+  /* img.img7 {
     max-width: 80%;
     height: auto;
     position: absolute;
     left: 10%;
     top: 5%;
-  }
+  } */
 
-  section.treatments {
+  /* section.treatments {
     height: 400px;
-  }
+  } */
 
   .treatments-text p {
     font-size: 1.75rem;
