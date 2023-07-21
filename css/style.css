@@ -1968,3 +1968,9 @@ i.fa-solid.fa-magnifying-glass {
 
   /* blog page @media css end */
 }
+
+
+/* New styles */
+.entry-meta {
+	display: none !important;
+}
